@@ -17,7 +17,7 @@ spec:
         - name: ghcr-secret
       containers:
         - name: frontend
-          image: ghcr.io/anjusah1510-coder/aks-app-frontend:v2
+          image: ghcr.io/anjusah1510-coder/aks-app-frontend:v1
           imagePullPolicy: Always
           ports:
             - containerPort: 80
